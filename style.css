@@ -1,0 +1,137 @@
+/* This will style the body element */
+body {
+    /* background-color: rgb(251, 244, 179); */
+    background-image: url(images/Blue_Bottle\,_Kyoto_Style_Ice_Coffee_\(5909775445\).jpeg);
+    border: 0;
+    margin: 0;
+    /* size, position, repeat */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* This will style the wrapper. Center the content and give it a width */
+.wrapper {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This will style the header with a logo image in it */
+
+header {
+    /* background-color: blue; */
+    height: 120px;
+}
+
+.coffeeLogo {
+    /* height: 125px; */
+    height: 100%;
+}
+
+/* The nav will contain links and be given a narrow height */
+nav {
+    background-color: rgba(43, 183, 226, 0.375);
+    min-height: 32px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+nav a {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+
+/* This will style main which will contiant text for the homepage */
+main {
+    /* background-color: darkorange; */
+    min-height: 400px;
+    text-align: center;
+    padding: 32px 128px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+
+}
+
+main h2 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+
+main p {
+    font-size: 20px;
+    color: rgb(9, 243, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgb(205, 33, 33);
+}
+
+main a {
+    color: aliceblue;
+}
+
+main img {
+    height: 300px;
+}
+
+.info {
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 132, 255, 0.299);
+
+}
+
+.product img {
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    text-align: center;
+    background-color: rgba(255, 111, 0, 0.39);
+}
+
+.productTitle {
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgb(30, 90, 210);
+    text-align: center;
+}
+
+
+
+/* This will style the embedded google map area */
+.map {
+    /* background-color: crimson; */
+    min-height: 200px;
+    text-align: center;
+}
+
+/* This will style the footer and content */
+footer {
+    background-color: rgba(43, 183, 226, 0.375);
+    min-height: 64px;
+
+}
+
+footer p {
+    color: aliceblue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 32px;
+}
